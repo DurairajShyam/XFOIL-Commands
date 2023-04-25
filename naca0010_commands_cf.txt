@@ -1,0 +1,24 @@
+naca0010
+ppar
+n
+360
+
+
+mdes
+filt
+exec
+
+pane
+oper 
+iter 100
+visc
+5830300
+alfa 8
+vplo
+cf
+dump naca0010_vt_a8.dat
+
+
+quit
+
+

@@ -1,0 +1,25 @@
+load meyermx2.dat
+meyermx2
+ppar
+n
+360
+
+
+mdes
+filt
+exec
+
+pane
+oper 
+iter 100
+visc
+6553100
+alfa -2
+vplo
+cf
+dump meyermx2_6point5e6_aminus2.dat
+
+
+quit
+
+

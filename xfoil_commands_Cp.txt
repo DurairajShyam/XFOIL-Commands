@@ -1,0 +1,14 @@
+load e475.dat
+oper
+re 3000000
+m 0.2
+visc
+iter 200
+a 0
+cpwr e475_Cp0.dat
+a -5
+cpwr e475_Cpminus5.dat
+a 10
+cpwr e475_Cp10.dat
+a 20
+cpwr e475_Cp20.dat

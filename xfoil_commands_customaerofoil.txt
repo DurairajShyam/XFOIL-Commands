@@ -1,0 +1,24 @@
+load sd7062mod.dat
+ppar
+n
+360
+
+
+oper
+re 700000
+m 0
+visc
+a 0
+a -5
+a -10
+!
+init
+pacc
+sd7062modRe7e5.dat
+
+aseq -10 0 0.1
+aseq 0 20 0.1
+pacc
+
+
+quit

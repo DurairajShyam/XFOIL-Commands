@@ -1,0 +1,25 @@
+naca 0012
+ppar
+n
+360
+
+
+oper
+re 9000000
+m 0.2
+visc
+iter 200
+a 0
+a -5
+a -10
+!
+init
+pacc
+NACA0012_Re9e6.dat
+
+aseq -10 0 0.1
+aseq 0 20 0.1
+pacc
+
+
+quit

@@ -1,0 +1,22 @@
+naca2515
+oper
+re 176823
+m 0
+visc
+vpar
+xtr 0.3 0.3
+
+a 0
+a -5
+a -10
+!
+init
+pacc
+naca2515_Re176823.dat
+
+aseq -10 0 0.1
+aseq 0 20 0.1
+pacc
+
+
+quit
